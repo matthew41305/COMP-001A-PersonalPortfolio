@@ -1,41 +1,23 @@
-/* General styles for all headers */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    font-family: Arial, sans-serif; /* You can change the font if you prefer */
+body {
+
+background-color: beige; /*background*/
+margin: 0;
+padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Specific styles for each header */
+h1, h2, h3, h4, h5, h6 
+
+{
+font-weight: bold;
+font-family: Arial, sans-serif;
+}
+
 h1 {
-    font-size: 2.5em; /* Make the h1 big */
-    color: white; /* White text */
-    background-color: black; /* Black background */
-    padding: 20px; /* Padding inside the black box */
-    border: 3px solid black; /* Black border */
-    text-align: center; /* Center the text */
-    margin: 20px 0; /* Margin to space out the h1 */
-}
 
-h2 {
-    font-size: 2em; /* Big, but smaller than h1 */
-    margin: 15px 0; /* Margin to space out the h2 */
-}
+    font-size: 2.5em;
+    color: white;
+background-color: black;
+padding: 20px;
 
-h3 {
-    font-size: 1.75em; /* Big, but smaller than h2 */
-    margin: 10px 0; /* Margin to space out the h3 */
-}
-
-h4 {
-    font-size: 1.5em; /* Big, but smaller than h3 */
-    margin: 10px 0; /* Margin to space out the h4 */
-}
-
-h5 {
-    font-size: 1.25em; /* Big, but smaller than h4 */
-    margin: 10px 0; /* Margin to space out the h5 */
-}
-
-h6 {
-    font-size: 1em; /* Standard size, but bold */
-    margin: 10px 0; /* Margin to space out the h6 */
 }
